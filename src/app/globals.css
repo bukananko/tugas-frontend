@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  html,
+  body {
+    @apply font-medium;
+  }
+
+  li {
+    @apply cursor-pointer hover:underline;
+  }
+}
